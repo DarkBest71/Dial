@@ -1,0 +1,10 @@
+{
+  "modules": { 
+    "Dial": {
+      "description": "Agent de conversation pour les débutants de SARAH",
+      "version": "0.1",
+	  "Auteur": "R-mann",
+	  "Categorie": "Speech"
+    }
+  }
+}

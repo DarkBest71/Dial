@@ -1,0 +1,63 @@
+    <grammar version="1.0" xml:lang="fr-FR" mode="voice" root="ruleDial" xmlns="http://www.w3.org/2001/06/grammar" tag-format="semantics/1.0">
+    <rule id="ruleDial" scope="public">
+    <tag>out.action=new Object(); </tag>
+    <item>SARAH</item>
+    <one-of>
+	<!-- Mode chatterbots IA-->	
+	<item>Téste<tag>out.action.val="Téste";</tag></item>
+<!--Politesse-->
+	<item>bonjour<tag>out.action.val="bonjour"</tag></item>
+	<item>salut<tag>out.action.val="bonjour"</tag></item>
+	<item>bonsoir<tag>out.action.val="bonsoir"</tag></item>
+	<item>merci<tag>out.action.val="merci"</tag></item>
+	<item>merci beaucoup<tag>out.action.val="merci"</tag></item>
+	<item>ça va<tag>out.action.val="sava"</tag></item>
+	<item>ça va bien<tag>out.action.val="sava"</tag></item>
+<!--Drôle de question-->	
+	<item>quelle est la couleur du cheval blanc d'Henri quatre<tag>out.action.val="kesdrole"</tag></item>
+<!--Insulte-->	
+	<item>ta gueule<tag>out.action.val="insulte"</tag></item>
+	<item>tu me soule<tag>out.action.val="insulte"</tag></item>
+	<item>tu m'énerve<tag>out.action.val="insulte"</tag></item>
+	<item>ferme la<tag>out.action.val="insulte"</tag></item>
+	<item>t'es conne<tag>out.action.val="insulte"</tag></item>
+	<item>tu fais chier<tag>out.action.val="insulte"</tag></item>
+	<item>tu maccases<tag>out.action.val="insulte"</tag></item>
+	<item>salope<tag>out.action.val="insulte"</tag></item>
+	<item>connasse<tag>out.action.val="insulte"</tag></item>
+	<item>pute<tag>out.action.val="insulte"</tag></item>
+	<item>petite salope<tag>out.action.val="insulte"</tag></item>
+	<item>petite connasse<tag>out.action.val="insulte"</tag></item>
+	<item>petite pute<tag>out.action.val="insulte"</tag></item>
+	<item>grosse vache<tag>out.action.val="insulte"</tag></item>
+	<item>morue<tag>out.action.val="insulte"</tag></item>
+<!--t'es ou -->	
+	<item>tu es où<tag>out.action.val="tesou"</tag></item>
+	<item>t'es où<tag>out.action.val="tesou"</tag></item>
+<!--compliment-->
+	<item>tu es cool<tag>out.action.val="compliment"</tag></item>
+	<item>tu es gentil<tag>out.action.val="compliment"</tag></item>
+	<item>tu es sympa<tag>out.action.val="compliment"</tag></item>
+<!--Présentation -->	
+	<item>qui est tu<tag>out.action.val="presentation"</tag></item>
+	<item>qui tu est<tag>out.action.val="presentation"</tag></item>
+	<item>répresente toi<tag>out.action.val="presentation"</tag></item>
+<!--Age-->
+	<item>quelle age as-tu<tag>out.action.val="age"</tag></item>
+	<item>tu as quelle age<tag>out.action.val="age"</tag></item>
+<!-- Fin du Mode chatterbots IA-->
+
+
+
+	<!-- Ouverture ou fermeture du lecteur DVD du PC -->
+	<item>ouvre le Dévédé<tag>out.action.val="dvdon"</tag></item>
+	<item>ouvre le lécteur Dévédé<tag>out.action.val="dvdon"</tag></item>
+	<item>ferme le Dévédé<tag>out.action.val="dvdoff"</tag></item>
+    <item>ouvre le lécteur<tag>out.action.val="dvdon"</tag></item>
+	<item>ferme le lécteur<tag>out.action.val="dvdoff"</tag></item>
+	<item>ferme le lécteur dévédé<tag>out.action.val="dvdoff"</tag></item>
+	
+    </one-of>
+    <tag>out.action._attributes.uri="http://127.0.0.1:8080/sarah/Dial";</tag>
+    </rule> 
+</grammar>

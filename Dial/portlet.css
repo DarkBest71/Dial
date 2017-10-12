@@ -1,0 +1,10 @@
+.plugin-gridster.Dial .front {
+  background: #55b5e6 url('images/Bot1.png') center 34px;
+  background-size:   100px 100px;
+  background-repeat: no-repeat;
+}
+.plugin-gridster.Dial .back {
+  background: #070000 url('images/Bot2.png') center 34px;
+  background-size:   100px 100px;
+  background-repeat: no-repeat;
+}
